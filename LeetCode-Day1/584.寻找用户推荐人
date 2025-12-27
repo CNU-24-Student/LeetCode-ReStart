@@ -1,0 +1,6 @@
+# 题目链接：https://leetcode.cn/problems/find-customer-referee/?envType=study-plan-v2&envId=primers-list
+# 表：Customer
+# 属性，id(int)  name(varchar)   referee_id(int)
+
+select name from Customer where
+    referee_id!=2 or referee_id is null
